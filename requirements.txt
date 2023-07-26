@@ -6,3 +6,5 @@ langchain
 bs4
 tiktoken
 streamlit
+uvicorn
+google
