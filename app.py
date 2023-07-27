@@ -33,7 +33,7 @@ openai_api_key=os.getenv("OPENAI_API_KEY")
 
 def search(query):
 
-    urls = googlesearch.search(query, stop=1)
+    urls = googlesearch.search(query, stop=3)
     for url in urls:
         print(urls)
 
